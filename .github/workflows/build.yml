@@ -41,7 +41,7 @@ jobs:
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Upload artifact
         if: ${{ github.event_name != 'pull_request' }}
@@ -331,7 +331,7 @@ jobs:
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Upload artifact
         if: ${{ github.event_name != 'pull_request' }}
@@ -481,7 +481,7 @@ jobs:
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Upload artifact
         if: ${{ github.event_name != 'pull_request' }}
@@ -794,7 +794,7 @@ jobs:
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Upload artifact
         if: ${{ github.event_name != 'pull_request' }}
@@ -819,7 +819,7 @@ jobs:
       
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Download build tag
         uses: actions/download-artifact@v3
